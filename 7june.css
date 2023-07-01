@@ -1,0 +1,22 @@
+h2{
+    color: black;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    text-align: center;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 100px;
+    transition-duration: 2s;
+}
+div:hover{
+    width: 350px;
+    height: 350px;
+    background-color: green;
+    transition: all;
+    transition-duration: 2s;
+    border: 2px 0px 4px solid rgb(185, 66, 66);
+    box-shadow: 5px  5px salmon;
+}

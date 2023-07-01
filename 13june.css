@@ -1,0 +1,44 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    /* background: linear-gradient(white,green); */
+}
+nav ul{
+    /* float: left; */
+}
+nav ul li{
+    float: left;
+    margin-left: 150px;
+    height: 50px;
+    width: 100px;
+    list-style: none;
+    margin-top: 20px;
+    background-color: bisque;
+}
+nav ul li ul{
+    display:none;
+}
+/* nav ul li:hover ul{
+    display: block;
+} */
+nav ul li:hover{
+    background-color: aqua;
+    border-radius: 20%;
+}
+nav ul li ul:hover{
+    display:block;
+}
+@media(max-width: 700px){
+    body{
+        background-color: red;
+        border: 3px solid green;
+
+    }
+    nav{
+        background-color: brown;
+    }
+}

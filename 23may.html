@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*img{
+            height: 300px;
+            width: 400px;
+        }*/
+        *{
+            padding: 0;
+            margin: 0 auto;
+        }
+        div{
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+        }
+        div>section{
+            width: 6000px;
+            height: 500px;
+            position: relative;
+            animation: animate 10s infinite alternate ease-in-out;
+        }
+        section>img{
+            width: 1435px;
+            height: 500px;
+        }
+        @keyframes animate{
+            0%{left:0px;}
+            25%{left:0px}
+            30%{left: -1435px;}
+            50%{left:-1435px;}
+            55%{left: -2870px;}
+            75%{left: -2870px;}
+            80%{left: -4305px;}
+            100%{left: -4305px;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <section>
+            <img src="solar.jpeg" alt="">
+            <img src="solar.jpeg" alt="">
+            <img src="solar.jpeg" alt="">
+            <img src="solar.jpeg" alt="">
+            
+        </section>
+    </div>
+</body>
+</html>
